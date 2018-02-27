@@ -9,10 +9,7 @@ def retrieve_version_info():
 setup(name='virt-manager-pure-cli-yen3',
       version=retrieve_version_info(),
       classifiers=[
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 2.7',
       ],
       description='Test for my self',
       author='Red hat',
@@ -21,7 +18,7 @@ setup(name='virt-manager-pure-cli-yen3',
       packages=['virtcli', 'virtconv', 'virtinst', 'virtManager'],
       scripts=['bin/virt-clone', 'bin/virt-convert', 'bin/virt-install',
                'bin/virt-xml'],
-      install_requires=[],
+      install_requires=['ipaddr', 'requests'],
       include_package_data=True,
       zip_safe=False
      )
