@@ -1,4 +1,4 @@
-# virt-manager-pure-cli v.1.50
+# virt-manager-pure-cli v1.50
 
 * The origianl project provides full features but it requeires `pygobject`,
   `libosinfo` ... etc objects. The fork emits these requirement and provides
